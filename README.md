@@ -1,11 +1,5 @@
 # BroTab
 
-![GitHub](https://img.shields.io/github/license/balta2ar/brotab)
-![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/balta2ar/brotab)
-[![PyPI version](https://badge.fury.io/py/brotab.svg)](https://badge.fury.io/py/brotab)
-![Mozilla Add-on](https://img.shields.io/amo/v/brotab)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/v/mhpeahbikehnfkfnmopaigggliclhmnc)
-
 Control your browser's tabs from the terminal.
 
 ## About
@@ -112,27 +106,7 @@ $ pip install --user brotab  # alternative
 $ sudo pip install brotab    # alternative
 ```
 2. Install native app manifests: `bt install`
-3. Install Firefox extension: https://addons.mozilla.org/en-US/firefox/addon/brotab/
-4. Install Chrome (Chromium) / Brave extension: https://chrome.google.com/webstore/detail/brotab/mhpeahbikehnfkfnmopaigggliclhmnc/
-5. Enjoy! (try `bt clients`, `bt windows`, `bt list`, `bt words`)
-
-## Build, test and manual installation
-
-see [DEVELOPMENT.md](DEVELOPMENT.md)
-
-## Related projects
-
-* [TabFS](https://github.com/osnr/TabFS) -- mounts tabs info a filesystem using FUSE
-* [dudetab](https://github.com/CRImier/dudetab) -- collection of useful scripts on top of brotab
-* [ulauncher-brotab](https://github.com/brpaz/ulauncher-brotab) -- Ulauncher extension for brotab
-* [cmp-brotab](https://github.com/pschmitt/cmp-brotab) -- brotab completion for nvim-cmp
-* [tab-search](https://github.com/reblws/tab-search) -- shows a nice icon with a number of tabs (Firefox)
-* [tab_wrangler](https://github.com/doctorcolossus/tab_wrangler) -- a text-based tab browser for tabaholics
-* [vimium-c](https://github.com/gdh1995/vimium-c) -- switch between tabs/history, close tabs with shift-del
-
-## Author
-
-Yuri Bochkarev
+3. Enjoy! (try `bt clients`, `bt windows`, `bt list`, `bt words`)
 
 ## License
 
