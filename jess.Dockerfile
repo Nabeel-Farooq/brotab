@@ -20,8 +20,7 @@ RUN apt-get update && apt-get install -y \
       socat curl net-tools \
       --no-install-recommends \
     && rm -rf /var/lib/apt/lists/* \
-    && mkdir -p /etc/chromium.d/ \
-    && /bin/echo -e 'export GOOGLE_API_KEY="AIzaSyCkfPOPZXDKNn8hhgu3JrA62wIgC93d44k"\nexport GOOGLE_DEFAULT_CLIENT_ID="811574891467.apps.googleusercontent.com"\nexport GOOGLE_DEFAULT_CLIENT_SECRET="kdloedMFGdGla2P1zacGjAQh"' > /etc/chromium.d/googleapikeys
+    && mkdir -p /etc/chromium.d/
 
 # Add chromium user
 # RUN groupadd -r chromium && useradd -m -r -g chromium -G audio,video chromium \
